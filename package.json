@@ -19,7 +19,8 @@
     "clean": "rm -rf dist",
     "clean:docs": "rm -rf .docz",
     "docs": "docz dev",
-    "lint": "xo --fix; tsc"
+    "lint": "xo --fix; tsc",
+    "prepare": "exit 0"
   },
   "main": "dist/index.js",
   "module": "dist/index.module.js",

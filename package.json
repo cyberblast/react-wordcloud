@@ -1,6 +1,6 @@
 {
   "name": "@cyberblast/react-wordcloud",
-  "version": "1.2.8",
+  "version": "1.2.9",
   "description": "Simple React + D3 wordcloud component with powerful features.",
   "license": "MIT",
   "homepage": "https://react-wordcloud.netlify.com/",
@@ -19,8 +19,7 @@
     "clean": "rm -rf dist",
     "clean:docs": "rm -rf .docz",
     "docs": "docz dev",
-    "lint": "xo --fix; tsc",
-    "prepare": "npm run clean; npm run build"
+    "lint": "xo --fix; tsc"
   },
   "main": "dist/index.js",
   "module": "dist/index.module.js",
@@ -59,12 +58,12 @@
     "husky": "^4.2.5",
     "microbundle": "^0.12.3",
     "react": ">=16.13.1",
-    "react-dom": "^16.13.1",
+    "react-dom": ">=16.13.1",
     "typescript": "^3.8.3",
     "xo": "^0.32.1"
   },
   "peerDependencies": {
-    "react": "^16.13.0"
+    "react": ">=16.13.0"
   },
   "husky": {
     "hooks": {

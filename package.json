@@ -1,6 +1,6 @@
 {
   "name": "@cyberblast/react-wordcloud",
-  "version": "1.2.9",
+  "version": "1.2.10",
   "description": "Simple React + D3 wordcloud component with powerful features.",
   "license": "MIT",
   "homepage": "https://react-wordcloud.netlify.com/",
